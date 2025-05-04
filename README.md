@@ -48,8 +48,8 @@ npm start
 This project is licensed under the MIT License
 
 ## Links
-[GitHub Repo](https://github.com/Bakenavva/Kanban-Board)
-[Deployed Application](https://kanban-board-mlms.onrender.com)
+- [GitHub Repo](https://github.com/Bakenavva/Kanban-Board)
+- [Deployed Application](https://kanban-board-mlms.onrender.com)
 
 ## Questions
 Further questions can reach me via:
