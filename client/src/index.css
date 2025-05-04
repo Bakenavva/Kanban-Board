@@ -3,9 +3,9 @@
 :root {
   font-family: 'Inter Tight', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 800;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgb(255, 255, 255);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -32,7 +32,7 @@ a:hover {
 }
 
 body {
-  background: #ECF0F1;
+  background: steelblue;
   background-size: cover;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
@@ -44,7 +44,7 @@ body {
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 button {
@@ -54,13 +54,16 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: aliceblue;
+  color: black;
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -100,12 +103,13 @@ tbody tr:nth-child(odd) {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: larger;
+  font-size: 22px;
   font-weight: 900;
 }
 
 .nav-title a {
-  color: #b864c4;
+  color: orange;
+  font-weight: 900;;
 }
 
 .nav-item {
@@ -147,15 +151,15 @@ tbody tr:nth-child(odd) {
 }
 
 .todo {
-  background-color: #e9cbec;
+  background-color: #d3d3d3;
 }
 
 .inprogress {
-  background-color: #b864c4;
+  background-color: #696969;
 }
 
 .done {
-  background-color: #732381;
+  background-color: #4b4b4b;
 }
 
 .ticket-card {
@@ -169,9 +173,9 @@ tbody tr:nth-child(odd) {
 }
 
 .container {
-  /* margin: auto; */
-  width: 100%;
-  /* height: 90%; */
+  margin: auto;
+  width: 90vw;
+  height: 90%;
 }
 
 #create-ticket-link {
@@ -183,7 +187,7 @@ tbody tr:nth-child(odd) {
 .form {
   width: 60%;
   height: 80%;
-  background-color: #b864c4;
+  background-color: dimgray;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -192,7 +196,7 @@ tbody tr:nth-child(odd) {
 }
 
 .form > h1, .form > label {
-  color: yellow;
+  color: orange;
 }
 
 .form > input {
@@ -206,7 +210,9 @@ tbody tr:nth-child(odd) {
 }
 
 .form button {
-  margin-top: 2.5%;
+  margin: 8%;
+  background-color: aliceblue;
+  color: black;
 }
 
 .form textarea {
@@ -252,6 +258,7 @@ tbody tr:nth-child(odd) {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: aliceblue;
+    color: black;
   }
 }
